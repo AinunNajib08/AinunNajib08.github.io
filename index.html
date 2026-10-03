@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nadirah Labs - GPS Map Camera</title>
+  <style>
+    :root {
+      --bg: #090D14;
+      --card-bg: #131A26;
+      --primary: #FFB300;
+      --text: #F3F4F6;
+      --text-muted: #9CA3AF;
+      --border: #1F2937;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    header {
+      width: 100%;
+      max-width: 800px;
+      padding: 40px 20px 20px 20px;
+      text-align: center;
+    }
+    .logo {
+      width: 96px;
+      height: 96px;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+      margin-bottom: 16px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    p.tagline {
+      color: var(--text-muted);
+      font-size: 16px;
+      margin-top: 8px;
+    }
+    .badge-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: var(--primary);
+      color: #000;
+      font-weight: 600;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+    .badge-btn:hover {
+      opacity: 0.9;
+    }
+    main {
+      width: 100%;
+      max-width: 800px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 0;
+      color: var(--primary);
+    }
+    p, li {
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      color: #6B7280;
+      font-size: 14px;
+      text-align: center;
+    }
+    a {
+      color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GPS Map Camera: Geotag Photo</h1>
+    <p class="tagline">Official Developer Portal & Support &bull; Nadirah Labs</p>
+    <a class="badge-btn" href="https://play.google.com/store/apps/details?id=com.nadirah.labs.gpsmapcamera" target="_blank">View on Google Play</a>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>About the App</h2>
+      <p>GPS Map Camera: Geotag Photo helps field workers, engineers, land surveyors, and travelers capture photos and videos stamped with real-time GPS coordinates, altitude, compass orientation, clean minimap snapshots, and address telemetry.</p>
+    </div>
+
+    <div class="card">
+      <h2>Privacy Policy</h2>
+      <p>Nadirah Labs values your privacy. GPS Map Camera processes location and camera data locally on your device to embed coordinates onto captured photos and videos. We do not sell or track your personal location data.</p>
+      <ul>
+        <li><strong>Camera & Microphone:</strong> Used exclusively for capturing photos and videos within the application.</li>
+        <li><strong>Location:</strong> Used strictly to fetch GPS coordinates, address, and minimaps for media timestamps.</li>
+        <li><strong>Storage:</strong> Used to save captured media directly to your device storage and gallery.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Contact & Support</h2>
+      <p>For inquiries, support, or privacy concerns, please contact us at:</p>
+      <p><strong>Developer:</strong> Nadirah Labs</p>
+      <p><strong>App Ads Verification:</strong> <a href="/app-ads.txt">app-ads.txt</a></p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Nadirah Labs. All rights reserved.
+  </footer>
+</body>
+</html>
